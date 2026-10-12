@@ -3,7 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title id="pageTitle">PyFactory ― 小さく、正確に、素早く。大手には頼めない、小さな業務課題をソフトウェアで解決</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8WND2HK753"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8WND2HK753');
+</script>
+<title id="pageTitle">YouLab IT ― 小さく、正確に、素早く。大手には頼めない、小さな業務課題をソフトウェアで解決</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Serif+SC:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -260,8 +269,8 @@
   @keyframes scroll-left{ from{ transform: translateX(0);} to{ transform: translateX(-50%);} }
 
   /* ---------- SECTION GENERIC ---------- */
-  section{ padding: 108px 0; }
-  @media (max-width:640px){ section{ padding: 76px 0; } }
+  section{ padding: 108px 0; scroll-margin-top: 68px; }
+  @media (max-width:640px){ section{ padding: 76px 0; scroll-margin-top: 60px; } }
   .section-head{ max-width: 640px; margin-bottom: 60px; }
   .section-head h2{ font-size: clamp(24px, 3.2vw, 36px); line-height:1.5; }
   .section-head p{ margin-top:16px; color: var(--ink-soft); font-size:15.5px; max-width: 520px; }
@@ -478,9 +487,9 @@
 
 <header class="site-nav">
   <div class="nav-inner">
-    <a href="#top" class="logo">Py<span>Factory</span></a>
+    <a href="#top" class="logo">YouLab<span>IT</span></a>
     <nav class="nav-links">
-      <a href="#services" data-i18n="nav.services">サービス</a>
+      <a href="#problem" data-i18n="nav.services">サービス</a>
       <a href="#process" data-i18n="nav.process">進め方</a>
       <a href="#why" data-i18n="nav.about">私たちについて</a>
       <a href="#contact" data-i18n="nav.contact">お問い合わせ</a>
@@ -505,7 +514,7 @@
 必要なところだけ、小さく、正確に、素早くソフトウェアで解決します。</p>
       <div class="hero-ctas">
         <a href="#contact" class="btn btn-primary" data-i18n="hero.btnPrimary">無料相談を申し込む →</a>
-        <a href="#services" class="btn btn-ghost" data-i18n="hero.btnGhost">サービスを見る</a>
+        <a href="#problem" class="btn btn-ghost" data-i18n="hero.btnGhost">サービスを見る</a>
       </div>
       <p class="hero-note" data-i18n="hero.note">// 対応業種：小売・製造・医療・物流・士業・飲食 ほか全業種</p>
       <p class="hero-note" data-i18n="hero.region">// 対応地域：リモートはアジア全域／対面は東京エリア</p>
@@ -553,8 +562,8 @@
 
         <circle class="node-ring" cx="240" cy="210" r="58"/>
         <circle class="hub-fill" cx="240" cy="210" r="46"/>
-        <text class="hub-label" x="240" y="206" text-anchor="middle">Py</text>
-        <text class="node-label" x="240" y="222" text-anchor="middle" style="fill:rgba(244,239,226,0.55)">Factory</text>
+        <text class="hub-label" x="240" y="206" text-anchor="middle">YouLab</text>
+        <text class="node-label" x="240" y="222" text-anchor="middle" style="fill:rgba(244,239,226,0.55)">IT</text>
       </svg>
     </div>
   </div>
@@ -784,8 +793,8 @@
 
 <footer>
   <div class="wrap footer-inner">
-    <div class="mono">PyFactory — Small. Precise. Fast.</div>
-    <div class="mono">© 2026 PyFactory. All rights reserved.</div>
+    <div class="mono">YouLab IT — Small. Precise. Fast.</div>
+    <div class="mono">© 2026 YouLab IT. All rights reserved.</div>
   </div>
 </footer>
 
@@ -832,7 +841,7 @@ const translations = {
     "form.submit":"この内容で送信する →","form.note":"※ 送信後、担当より2営業日以内にご返信します。",
     "form.success":"送信しました。ご連絡ありがとうございます。担当より折り返しいたします。",
     "form.error":"送信に失敗しました。時間をおいて再度お試しください。もしくは直接メールでご連絡ください。",
-    "pageTitle":"PyFactory ― 小さく、正確に、素早く。大手には頼めない、小さな業務課題をソフトウェアで解決。"
+    "pageTitle":"YouLab IT ― 小さく、正確に、素早く。大手には頼めない、小さな業務課題をソフトウェアで解決。"
   },
   en: {
     "nav.services":"Services","nav.process":"Process","nav.about":"About","nav.contact":"Contact","nav.cta":"Get in touch →",
@@ -875,7 +884,7 @@ const translations = {
     "form.submit":"Send message →","form.note":"* We'll reply within 2 business days after you submit.",
     "form.success":"Message sent. Thank you for reaching out — we'll get back to you shortly.",
     "form.error":"Something went wrong sending your message. Please try again shortly, or email us directly.",
-    "pageTitle":"PyFactory — Small, precise, fast. Solving small business challenges the big players won't take on"
+    "pageTitle":"YouLab IT — Small, precise, fast. Solving small business challenges the big players won't take on"
   },
   zh: {
     "nav.services":"服务","nav.process":"流程","nav.about":"关于我们","nav.contact":"联系我们","nav.cta":"立即咨询 →",
@@ -918,7 +927,7 @@ const translations = {
     "form.submit":"提交咨询 →","form.note":"※ 提交后，我们将在 2 个工作日内回复。",
     "form.success":"已收到您的信息，感谢您的咨询，我们会尽快与您联系。",
     "form.error":"发送失败，请稍后重试，或直接通过邮件与我们联系。",
-    "pageTitle":"PyFactory — 小而精，快而准。解决大厂不愿接的小型业务难题"
+    "pageTitle":"YouLab IT — 小而精，快而准。解决大厂不愿接的小型业务难题"
   }
 };
 
