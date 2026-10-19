@@ -9,7 +9,12 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
+  if (location.search.indexOf('internal=1') > -1) {
+    document.cookie = 'internal_user=true; max-age=63072000; path=/; SameSite=Lax';
+  }
+  if (document.cookie.indexOf('internal_user=true') > -1) {
+    gtag('set', { traffic_type: 'internal' });
+  }
   gtag('config', 'G-8WND2HK753');
 </script>
 <title id="pageTitle">YouLab IT ― 小さく、正確に、素早く。大手には頼めない、小さな業務課題をソフトウェアで解決</title>
